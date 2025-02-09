@@ -5,7 +5,7 @@ import Loader from '../components/Loader/Loader';
 import { FaRegUser } from "react-icons/fa";
 
 const AllOrders = () => {
-    const apiUrl =`http://localhost:3000/api/v1/`
+    const apiUrl =`https://bookstore-backend-dgaz.onrender.com/api/v1/`
     const headers = {
         id: localStorage.getItem("id"),
         authorization: `Bearer ${localStorage.getItem("token")}`

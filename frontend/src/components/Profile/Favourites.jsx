@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import BookCard from "../BookCard/BookCard"
 const Favourites = () => {
-  const apiUrl =`http://localhost:3000/api/v1/`
+  const apiUrl =`https://bookstore-backend-dgaz.onrender.com/api/v1/`
   const [favouriteBooks, setFavouriteBooks] = useState()
   const headers = {
     id: localStorage.getItem("id"),

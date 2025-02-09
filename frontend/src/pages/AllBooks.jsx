@@ -4,7 +4,7 @@ import Loader from "../components/Loader/Loader"
 import BookCard from "../components/BookCard/BookCard"
 
 function AllBooks() {
-  const apiUrl =`http://localhost:3000/api/v1/`
+  const apiUrl =`https://bookstore-backend-dgaz.onrender.com/api/v1/`
   const [book, setBook]=useState()
   useEffect(() =>{
      const fetch= async ()=>{

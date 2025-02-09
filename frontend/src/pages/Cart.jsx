@@ -5,7 +5,7 @@ import { MdOutlineDeleteOutline } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
-  const apiUrl =`http://localhost:3000/api/v1/`
+  const apiUrl =`https://bookstore-backend-dgaz.onrender.com/api/v1/`
   const navigate=useNavigate();
   const [cart, setCart] = useState()
   const [total, setTotal] = useState()

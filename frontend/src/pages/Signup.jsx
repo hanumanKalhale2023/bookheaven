@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom"
 import { toast, ToastContainer } from "react-toastify";
 
 function Signup() {
-  const apiUrl =`http://localhost:3000/api/v1/`
+  const apiUrl =`https://bookstore-backend-dgaz.onrender.com/api/v1/`
   const navigate=useNavigate()
   const [value, setValue]=useState(
     {

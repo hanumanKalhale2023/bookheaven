@@ -7,7 +7,7 @@ const RecentlyAdded = () => {
     const [book, setBook]=useState()
     useEffect(() =>{
        const fetch= async ()=>{
-        const response=await axios.get("http://localhost:3000/api/v1/get-recent-books")
+        const response=await axios.get("https://bookstore-backend-dgaz.onrender.com/api/v1/get-recent-books")
         setBook(response.data)
         
        }

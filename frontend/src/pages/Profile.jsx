@@ -5,7 +5,7 @@ import axios from "axios"
 import Loader from "../components/Loader/Loader"
 import MobileNav from "../components/Profile/MobileNav"
 const Profile = () => {
- const apiUrl =`http://localhost:3000/api/v1/`
+ const apiUrl =`https://bookstore-backend-dgaz.onrender.com/api/v1/`
 
   const [profile, setProfile] = useState()
   const headers = {

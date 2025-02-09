@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 const UpdateBook = () => {
-    const apiUrl =`http://localhost:3000/api/v1/`
+    const apiUrl =`https://bookstore-backend-dgaz.onrender.com/api/v1/`
     const { id } = useParams();
     const navigate = useNavigate();
     const headers = {

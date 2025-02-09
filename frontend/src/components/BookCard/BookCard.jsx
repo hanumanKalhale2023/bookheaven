@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import axios from "axios"
 const BookCard = ({data,favourite}) => {
-  const apiUrl =`http://localhost:3000/api/v1/`
+  const apiUrl =`https://bookstore-backend-dgaz.onrender.com/api/v1/`
  //console.log("book Id", data._id)
   const headers = {
     id: localStorage.getItem("id"),

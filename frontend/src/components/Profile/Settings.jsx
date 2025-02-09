@@ -4,7 +4,7 @@ import Loader from '../Loader/Loader'
 import { ToastContainer } from 'react-toastify'
 import { toast } from 'react-toastify'
 const Settings = () => {
-  const apiUrl =`http://localhost:3000/api/v1/`
+  const apiUrl =`https://bookstore-backend-dgaz.onrender.com/api/v1/`
   const [value, setValue]=useState({ address:''  })
   const [profileData, setProfileData]=useState();
   const headers = {
@@ -26,7 +26,7 @@ const Settings = () => {
   }
 
   const submitAddress= async()=>{
-    const response = await axios.put("http://localhost:3000/api/v1/update-address",value,{headers})
+    const response = await axios.put("https://bookstore-backend-dgaz.onrender.com/api/v1/update-address",value,{headers})
     console.log(response)
     toast.success("Address updated successfully")
   }
